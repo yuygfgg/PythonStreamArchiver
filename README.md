@@ -3,7 +3,7 @@
 StreamArchiver is an efficient script for incrementally packing a directory into a tar file while deleting the source files on the fly, eliminating the need for extra temporary space required by traditional methods that keep both the tar and the source files during the process. This space-saving approach is particularly useful in storage-constrained environments. This approach is handy for environments with limited storage.
 
 ## Features
-- Saves disk space by avoiding the need to duplicate files before archiving.
+- Saves disk space by avoiding the need to duplicate files in source folder and tar file.
 - Deletes files immediately after archiving if they have been successfully added to the tar archive.
 
 ## Prerequisites

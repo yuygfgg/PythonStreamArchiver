@@ -1,6 +1,6 @@
 # StreamArchiver
 
-StreamArchiver is a simple Python script designed to help users save disk space by archiving files directly to a tar file without duplicating them first. This approach is handy for environments with limited storage.
+StreamArchiver is an efficient script for incrementally packing a directory into a tar file while deleting the source files on the fly, eliminating the need for extra temporary space required by traditional methods that keep both the tar and the source files during the process. This space-saving approach is particularly useful in storage-constrained environments. This approach is handy for environments with limited storage.
 
 ## Features
 - Saves disk space by avoiding the need to duplicate files before archiving.
